@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Microsoft YaHei";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+.content :not(pre) > code {
+  border-radius: 3px;
+  font-size: 85%;
+  font-family: Consolas, "Microsoft YaHei";
+  padding: 0.2em 0.4em !important;
+  `color: #4472C4;
+}
